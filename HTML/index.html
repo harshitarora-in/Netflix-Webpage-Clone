@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch Online Shows</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/Project7-Netflix-Clone/CSS/styles.css">
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase_top">
+            <img class="netflix_logo" src="/Project7-Netflix-Clone/Images/logo.png" alt="Logo">
+            <button class="sign_in_btn" type="button" onclick=location.href="https://www.netflix.com">Sign in</button>
+        </div>
+        <div class="showcase_content">
+            <h1>See what's New</h1>
+            <p>Watch anywhere. Cancel Anytime </p>
+            <button class="watch_30days_btn large_btn" type="button" onclick="location.href='https://www.netflix.com';">Watch Free for 30 Days <i class="fas fa-chevron-right btn-icon"></i></button>
+        </div>
+    </header>
+    <section class="tabs">
+        <div class="container">
+            <div id="tab_1" class="tab_item tab_active_border">
+                <i class="fas fa-door-open fa-3x"></i>
+                <p class="hide_sm">Cancel Anytime</p>
+            </div>
+            <div id="tab_2" class="tab_item">
+                <i class="fas fa-tablet-alt fa-3x"></i>
+                <p class="hide_sm">Watch Anywhere</p>
+            </div>
+            <div id="tab_3" class="tab_item">
+                <i class="fas fa-tags fa-3x"></i>
+                <p class="hide_sm">Pick your price</p>
+            </div>
+        </div>
+    </section>
+    <section class="tab_content">
+        <div class="container">
+            <!-- Tab content 1 -->
+            <div id="tab_1_content" class="tab_content_item show">
+                <div class="tab_1_content_inner">
+                    <div>
+                        <p class="text_lg">If you decide netflix is not for you - no problem. No commitment. Cancel online Anytime</p>
+                        <button class="watch_30days_btn small_btn" type="button" onclick="location.href='https://www.netflix.com';">Watch Free for 30 Days
+                            <i class="fas fa-chevron-right btn-icon"></i></button>
+                    </div>
+                    <img src="/Project7-Netflix-Clone/Images/tab-content-1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Content 2 -->
+        <div id="tab_2_content" class="tab_content_item">
+            <div class="container">
+            <div class="tab_2_content_top">
+                <p class="text_lg">Watch TV shows and movies anytime, anywhere - personalized for you.</p>
+                <button class="watch_30days_btn small_btn" type="button" onclick="location.href='https://www.netflix.com';">Watch Free
+                    for 30 Days
+                    <i class="fas fa-chevron-right btn-icon"></i></button>
+            </div>
+            <div class="tab_2_content_bottom">
+                <div>
+                    <img src="/Project7-Netflix-Clone/Images/tab-content-2-1.png" alt="">
+                <h3 class="text_md">Watch on your tv</h3>
+                <p class="text_dark">Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more</p></div>
+                <div>
+                    <img src="/Project7-Netflix-Clone/Images/tab-content-2-2.png" alt="">
+                <h3 style="margin-bottom: 1rem; margin-top: 0.5rem;">Watch instantly or download for later</h3>
+                <p class="text_dark">Available on mobile and tablet, wherever you go.</p></div>
+                <div>
+                    <img src="/Project7-Netflix-Clone/Images/tab-content-2-3.png" alt="">
+                <h3 class="text_md">Use any computer</h3>
+                <p class="text_dark">Watch right on Netflix.com</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Tab 3 Content -->
+        <div id="tab_3_content" class="tab_content_item">
+            <div class="container">
+            <div class="tab_3_content_top">
+                <h3>Choose one plan and watch everything on Netflix</h3>
+                <button class="watch_30days_btn small_btn" type="button" onclick="location.href='https://www.netflix.com';">Watch Free
+                    for 30 Days
+                    <i class="fas fa-chevron-right btn-icon"></i></button>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Basic</th>
+                        <th>Standard</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly Price after free month ends</td>
+                        <td>$8.99</td>
+                        <td>$12.99</td>
+                        <td>$15.99</td>
+                    </tr>
+                    <tr>
+                        <td>HD Available</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Ultra HD Available</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Screens you can watch on at the same time</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Watch on your laptop, TV, phone and tablet</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                                <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Cancel Anytime</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                    <tr>
+                        <td>First month free</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Questions? Call 1-866-579-7172</p>
+        <div class="footer_cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Ways To Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                            <tr>
+                        <td>Unlimited TV shows and movies</td>
+<li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/Project7-Netflix-Clone/js/main.js"></script>
+</body>
+</html>
